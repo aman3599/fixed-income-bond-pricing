@@ -1,2 +1,3 @@
-# fixed-income-bond-pricing
-Pricing investment grade fixed income bonds by predicting interest rates using Monte Carlo simulations.
+# Fixed Income Bond Pricing - Interest Rate Simulation and Volatility Calibration
+
+The central goal of this project revolves around simulating the future movement of interest rates from publicly available fixed income bond prices. There are multiple methods that contribute towards the entirety of the project. We use Monte-Carlo methods to create interest rates simulations based on three widely used interest rate models, the Vasicek model, the Cox-Ingersoll-Ross (CIR) model and the Hull-White model. We then create a pricing function using these simulated interest rates and the Discounted Cash Flow (DCF) method to arrive at theoretical prices for selected corporate bonds. We then compare these prices to the market prices of the corresponding bonds and use the SLSQP method to calibrate our simulated interest rates by reducing the mean-squared error (MSE).
